@@ -1,28 +1,25 @@
-gulp-docco (a.k.a "Gulco citron")
+gulp-jsx-docco
 =============
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]  [![Coverage Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url] [![Code Climate][codeclimate-image]][codeclimate-url]
+[![NPM version]]
 
 > docco plugin for [gulp](https://github.com/wearefractal/gulp)
 
-WARNING
+JSX support added
+-------------
+This module added jsx support to gulp-docco(https://github.com/jsBoot/gulp-docco)
 -------------
 
-This is an early release - if you find bugs, please say so.
-
-TL;DR
--------------
-
-Install `gulp-docco` as a development dependency:
+Install `gulp-jsx-docco` as a development dependency:
 
 ```shell
-npm install --save-dev gulp-docco
+npm install --save-dev gulp-jsx-docco
 ```
 
 Then, add it to your `gulpfile.js`:
 
 ```javascript
-var docco = require("gulp-docco");
+var docco = require("gulp-jsx-docco");
 
 gulp.src("./src/*.js")
   .pipe(docco())
@@ -38,7 +35,7 @@ That's it.
 Additionally, we support passing an options object following the [docco syntax](http://jashkenas.github.io/docco/):
 
 ```javascript
-var docco = require("gulp-docco");
+var docco = require("gulp-jsx-docco");
 
 gulp.src("./src/*.js")
   .pipe(docco(options))
@@ -55,17 +52,4 @@ We bypass some of docco internals in order to prevent it from manipulating files
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
-[npm-url]: https://npmjs.org/package/gulp-docco
-[npm-image]: https://badge.fury.io/js/gulp-docco.png
-
-[travis-url]: http://travis-ci.org/jsBoot/gulp-docco
-[travis-image]: https://secure.travis-ci.org/jsBoot/gulp-docco.png?branch=master
-
-[coveralls-url]: https://coveralls.io/r/jsBoot/gulp-docco
-[coveralls-image]: https://coveralls.io/repos/jsBoot/gulp-docco/badge.png?branch=master
-
-[depstat-url]: https://david-dm.org/jsBoot/gulp-docco
-[depstat-image]: https://david-dm.org/jsBoot/gulp-docco.png
-
-[codeclimate-url]: https://codeclimate.com/github/jsBoot/gulp-docco.js
-[codeclimate-image]: https://codeclimate.com/github/jsBoot/gulp-docco.png
+[npm-url]: https://npmjs.org/package/gulp-jsx-docco

@@ -12,7 +12,7 @@ delete require.cache[require.resolve("../")];
 var gutil = require("gulp-util"),
   docco = require("../");
 
-describe("gulp-docco", function () {
+describe("gulp-jsx-docco", function () {
 
   var expectedFile = new gutil.File({
     path: "test/expected/hello.txt",

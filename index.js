@@ -26,7 +26,7 @@
 
     var parse = function(file, enc, next){
       if (file.isNull()) return; // ignore
-      if (file.isStream()) return this.emit('error', new PluginError('gulp-docco',  'Streaming not supported'));
+      if (file.isStream()) return this.emit('error', new PluginError('gulp-jsx-docco',  'Streaming not supported'));
 
       // Ignore unsupported files altogether
       var lang = helpers.isSupported(file.path, config);
@@ -87,7 +87,7 @@
   //         try{
   //           reporter(warnings, options);
   //         }catch(e){
-  //           return this.emit('error', new PluginError('gulp-docco', 'Reporter crashed!' + e));
+  //           return this.emit('error', new PluginError('gulp-jsx-docco', 'Reporter crashed!' + e));
   //         }
   //       }
   //       this.push(file);
@@ -120,4 +120,3 @@
   module.exports = streamParser;
 
 }());
-
