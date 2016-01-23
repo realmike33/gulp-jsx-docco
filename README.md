@@ -7,7 +7,7 @@ gulp-jsx-docco
 
 JSX support added
 -------------
-This module added jsx support to gulp-docco(https://github.com/jsBoot/gulp-docco)
+This module added jsx support to [gulp-docco](https://github.com/jsBoot/gulp-docco)
 -------------
 
 Install `gulp-jsx-docco` as a development dependency:
