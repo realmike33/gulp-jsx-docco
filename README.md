@@ -1,8 +1,5 @@
 gulp-jsx-docco
 =============
-
-[![NPM version]]
-
 > docco plugin for [gulp](https://github.com/wearefractal/gulp)
 
 JSX support added
