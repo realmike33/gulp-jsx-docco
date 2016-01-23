@@ -1,5 +1,5 @@
 {
-  "name": "gulp-docco",
+  "name": "gulp-jsx-docco",
   "version": "0.0.4",
   "description": "A docco plugin for Gulp",
   "keywords": [
@@ -9,22 +9,17 @@
     "javascript",
     "gulp"
   ],
-  "homepage": "https://github.com/jsBoot/gulp-docco",
+  "homepage": "https://github.com/realmike33/gulp-jsx-docco",
   "bugs": {
-    "url": "https://github.com/jsBoot/gulp-docco/issues",
-    "email": "dev@webitup.fr"
+    "url": "https://github.com/realmike33/gulp-jsx-docco/issues"
   },
   "license": "MIT",
-  "author": {
-    "name": "Mangled Deutz",
-    "email": "olivier@webitup.fr",
-    "url": "https://github.com/dmp42"
-  },
+  "author": {},
   "contributors": [],
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jsBoot/gulp-docco.git"
+    "url": "git://github.com/realmike33/gulp-jsx-docco.git"
   },
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
